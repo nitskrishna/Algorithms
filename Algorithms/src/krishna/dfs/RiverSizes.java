@@ -18,7 +18,6 @@ import java.util.*;
 public class RiverSizes {
 	public static List<Integer> riverSizes(int[][] matrix) {
 		List<Integer> list = new ArrayList<>();
-		;
 		if (matrix == null || matrix.length == 0) {
 			return list;
 		}
