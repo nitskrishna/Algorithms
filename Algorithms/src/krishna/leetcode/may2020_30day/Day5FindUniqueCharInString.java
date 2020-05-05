@@ -19,7 +19,6 @@ package krishna.leetcode.may2020_30day;
 public class Day5FindUniqueCharInString {
 	public int firstUniqChar(String s) {
 		int[] marker = new int[26];
-		int len = s.length();
 		char[] arr = s.toCharArray();
 		for (char c : arr) {
 			marker[c - 'a']++;
