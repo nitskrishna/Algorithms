@@ -22,7 +22,6 @@ package krishna.leetcode.may2020_30day;
  * 
  * coordinates contains no duplicate point.
  * 
- * 
  * @author krishna_k
  *
  */
