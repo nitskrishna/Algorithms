@@ -21,18 +21,18 @@ package krishna.leetcode.may2020_30day;
  * Example 1:
  * 				  1
  * 				/   \
- * 			   2	 3
- * 			/
- *		   4 
+ * 			       2     3
+ * 			      /
+ *		             4 
  * Input: root = [1,2,3,4], x = 4, y = 3 Output: false 
  * 
  * Example 2:
  *
  * 				  1
  * 				/   \
- * 			   2	 3
+ * 			       2     3
  * 				\     \
- * 				 4	   5	
+ * 				 4     5	
  * 
  * Input: root = [1,2,3,null,4,null,5], x = 5, y = 4 Output: true 
  * 
@@ -40,7 +40,7 @@ package krishna.leetcode.may2020_30day;
  * 
  * 				  1
  * 				/   \
- * 			   2	 3
+ * 			       2     3
  * 				\     
  * 				 4	   	
  * 
