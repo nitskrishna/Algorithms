@@ -58,7 +58,7 @@ package krishna.leetcode.may2020_30day;
  * @author krishna_k
  *
  */
-public class Day6CousinsInBinaryTree {
+public class Day7CousinsInBinaryTree {
 
 	/**
 	 * Definition for a binary tree node.
@@ -176,7 +176,7 @@ public class Day6CousinsInBinaryTree {
 		root.right = node3;
 		node2.right = node4;
 		node3.right = node5;
-		Day6CousinsInBinaryTree o = new Day6CousinsInBinaryTree();
+		Day7CousinsInBinaryTree o = new Day7CousinsInBinaryTree();
 		boolean result = o.isCousins(root, 5, 4);
 		System.out.println(result);
 	}

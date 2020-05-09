@@ -22,7 +22,7 @@ import java.util.Map;
  * @author krishna_k
  *
  */
-public class Day5MajorityElement {
+public class Day6MajorityElement {
 	// Using Moore’s Voting Algorithm Reference from::
 	// https://www.geeksforgeeks.org/majority-element/
 	public int majorityElement(int[] nums) {

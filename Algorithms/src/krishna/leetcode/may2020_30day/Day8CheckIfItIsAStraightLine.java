@@ -25,7 +25,7 @@ package krishna.leetcode.may2020_30day;
  * @author krishna_k
  *
  */
-public class Day7CheckIfItIsAStraightLine {
+public class Day8CheckIfItIsAStraightLine {
 	public boolean checkStraightLine(int[][] coordinates) {
 		// y1 = m*x1 + c;
 		// y2 = m*x2 + c;
@@ -58,7 +58,7 @@ public class Day7CheckIfItIsAStraightLine {
 	public static void main(String[] args) {
 //		[[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
 		int[][] coordinates = { { 1, 2 }, { 2, 2 }, { 3, 4 }, { 4, 5 }, { 5, 6 }, { 7, 7 } };
-		Day7CheckIfItIsAStraightLine o = new Day7CheckIfItIsAStraightLine();
+		Day8CheckIfItIsAStraightLine o = new Day8CheckIfItIsAStraightLine();
 		boolean b = o.checkStraightLine(coordinates);
 		System.out.println(b);
 	}
